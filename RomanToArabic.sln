@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToArabic", "RomanToArabic\RomanToArabic.csproj", "{23027823-B3B9-4335-8DF2-304ED3C60904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToArabic.Test", "RomanToArabic.Test\RomanToArabic.Test.csproj", "{142F01DB-B238-48C0-B99C-722AFD0A9BD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23027823-B3B9-4335-8DF2-304ED3C60904} = {23027823-B3B9-4335-8DF2-304ED3C60904}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23027823-B3B9-4335-8DF2-304ED3C60904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23027823-B3B9-4335-8DF2-304ED3C60904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23027823-B3B9-4335-8DF2-304ED3C60904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23027823-B3B9-4335-8DF2-304ED3C60904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142F01DB-B238-48C0-B99C-722AFD0A9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142F01DB-B238-48C0-B99C-722AFD0A9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142F01DB-B238-48C0-B99C-722AFD0A9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142F01DB-B238-48C0-B99C-722AFD0A9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {008A1349-8AB2-4754-9B66-129F569EF52C}
+	EndGlobalSection
+EndGlobal
